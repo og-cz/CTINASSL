@@ -1,0 +1,74 @@
+table {
+border-collapse: collapse;
+border: 2px solid rgb(140 140 140);
+font-family: sans-serif;
+font-size: 0.8rem;
+letter-spacing: 1px;
+}
+
+caption {
+caption-side: bottom;
+padding: 10px;
+font-weight: bold;
+}
+
+thead,
+tfoot {
+background-color: rgb(255, 166, 0, 0.691);
+}
+
+th,
+td {
+border: 1px solid rgb(160 160 160);
+padding: 8px 10px;
+word-wrap: break-word;
+max-width: 150px;
+}
+
+.CTINASSL{
+    background-color: rgba(255, 166, 0, 0.691);
+    text-align: center;
+}
+.NOT_CTINASSL{
+    background-color: rgb(237 238 242);
+    text-align: center;
+}
+
+th{
+    width: 75px;
+}
+td{
+    width: 150px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+tfoot th {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.header_schedule {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.table_schedule table {
+    margin: 0 auto;
+    width: auto; 
+}
+
+#vacant_style {
+    text-align: center;
+    background-color: white;
+}
